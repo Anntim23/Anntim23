@@ -52,12 +52,11 @@ menu.addEventListener('click', (e) => {
 		scrollTop();
 	}
 
-	// if (e.target.classList.contains('nav__link') && !e.target.classList.contains('nav__link--drop')) {
-	// 	e.preventDefault();
-	// 	menu.classList.remove('open');
-	// 	overlay.classList.remove('open');
-	// 	unlockScroll();
-	// }
+	if (e.target.classList.contains('nav__link') && !e.target.classList.contains('nav__link--drop')) {
+		menu.classList.remove('open');
+		overlay.classList.remove('open');
+		unlockScroll();
+	}
 });
 
 

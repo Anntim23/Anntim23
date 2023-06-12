@@ -209,9 +209,9 @@
   }
 
   @media (max-width: 576px) {
-
     .header {
       background: url(hero6.jpg) center left no-repeat;
+      min-height: 700px;
     }
 
     .hero__title {
