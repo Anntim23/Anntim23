@@ -236,6 +236,10 @@
       font-size: 3rem;
     }
 
+    .teacher__name {
+      font-size: 1.9rem;
+  }
+
     .teacher__text {
       max-width: 240px;
     }
