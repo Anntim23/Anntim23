@@ -178,7 +178,7 @@
     }
 
     .teacher__card--card0:hover {
-      background: url(../img/teach1.jpg) top -130px left -15px no-repeat;
+      background: url(teach1.jpg) top -130px left -15px no-repeat;
       background-size: 40rem;
     }
 
@@ -187,7 +187,7 @@
     }
 
     .teacher__card--card1:hover {
-      background: url(../img/teach2.jpg) top -130px left no-repeat;
+      background: url(teach2.jpg) top -130px left no-repeat;
       background-size: 40rem;
     }
 
@@ -196,7 +196,7 @@
     }
 
     .teacher__card--card2:hover {
-      background: url(../img/teach3.jpg) top -130px left -10px no-repeat;
+      background: url(teach3.jpg) top -130px left -10px no-repeat;
       background-size: 40rem;
     }
 
@@ -211,7 +211,7 @@
   @media (max-width: 576px) {
 
     .header {
-      background: url(../img/hero6.jpg) center left no-repeat;
+      background: url(hero6.jpg) center left no-repeat;
     }
 
     .hero__title {
@@ -230,6 +230,14 @@
 
     .footer__contacts {
       margin-bottom: 30px;
+    }
+
+    .section__title {
+      font-size: 3rem;
+    }
+
+    .teacher__text {
+      max-width: 240px;
     }
   }
 
